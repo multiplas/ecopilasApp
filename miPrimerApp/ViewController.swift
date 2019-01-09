@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let url = URL(string: "https://ecopilas.es/app/")
         let URLrequest = URLRequest(url: url!)
-        self.webview.load(URLrequest)
+        //self.webview.load(URLrequest)
     }
 }
 
